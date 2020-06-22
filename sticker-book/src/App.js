@@ -11,7 +11,19 @@ class App extends Component {
   }
 
   componentDidMount(){
- 
+       axios({
+         url: "https://rickandmortyapi.com/api/character/[1,2,3]",
+         method: "GET",
+         responseType: "JSON",
+       }).then((response) => {
+         console.log(response);
+         response = response.data;
+
+         this.setState({
+           charactersInfo: response,
+         });
+       });
+
   }
   
   
