@@ -31,21 +31,26 @@ class App extends Component {
   handleClick = (event) => {
     event.preventDefault();
   
-    let copyOfVisible = this.state.visible;
-    copyOfVisible = true;
-    console.log(event.target.id)
+    // let copyOfVisible = this.state.visible;
+    // copyOfVisible = true;
+    // console.log(event.target.id)
+
+    console.log(event.target.classList)
+    const stickerNum = event.target.classList;
+
+    console.log(stickerNum);
+    stickerNum.add("hideNumber")
 
     const sticker = event.target.childNodes[1].classList;
 
     sticker.remove("hidden");
-   
     sticker.add("visible");
   
 
 
-    console.log(event.target.childNodes[1].classList)
+    // console.log(event.target.childNodes[1].classList)
   
-      console.log(this.state.visible)
+      // console.log(this.state.visible)
   }
 
   render() {

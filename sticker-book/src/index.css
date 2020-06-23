@@ -84,6 +84,11 @@ button{
   transition: ease-in .7s;
 }
 
+.hideNumber{
+  font-size: 0;
+  transition: ease-in .5s;
+}
+
 @media (min-width: 768px){
   main{
     display: grid;
