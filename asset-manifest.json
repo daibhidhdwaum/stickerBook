@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/stickerBook/static/css/main.b1d66e51.chunk.css",
+    "main.js": "/stickerBook/static/js/main.da5a2907.chunk.js",
+    "main.js.map": "/stickerBook/static/js/main.da5a2907.chunk.js.map",
+    "runtime-main.js": "/stickerBook/static/js/runtime-main.5eceec62.js",
+    "runtime-main.js.map": "/stickerBook/static/js/runtime-main.5eceec62.js.map",
+    "static/js/2.efbf500a.chunk.js": "/stickerBook/static/js/2.efbf500a.chunk.js",
+    "static/js/2.efbf500a.chunk.js.map": "/stickerBook/static/js/2.efbf500a.chunk.js.map",
+    "index.html": "/stickerBook/index.html",
+    "precache-manifest.1761799a3b32b249c1f43744e7316e73.js": "/stickerBook/precache-manifest.1761799a3b32b249c1f43744e7316e73.js",
+    "service-worker.js": "/stickerBook/service-worker.js",
+    "static/css/main.b1d66e51.chunk.css.map": "/stickerBook/static/css/main.b1d66e51.chunk.css.map",
+    "static/js/2.efbf500a.chunk.js.LICENSE.txt": "/stickerBook/static/js/2.efbf500a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5eceec62.js",
+    "static/js/2.efbf500a.chunk.js",
+    "static/css/main.b1d66e51.chunk.css",
+    "static/js/main.da5a2907.chunk.js"
+  ]
+}
