@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/stickerBook/static/css/main.b1d66e51.chunk.css",
-    "main.js": "/stickerBook/static/js/main.da5a2907.chunk.js",
-    "main.js.map": "/stickerBook/static/js/main.da5a2907.chunk.js.map",
+    "main.css": "/stickerBook/static/css/main.bb1cc2db.chunk.css",
+    "main.js": "/stickerBook/static/js/main.db269cc4.chunk.js",
+    "main.js.map": "/stickerBook/static/js/main.db269cc4.chunk.js.map",
     "runtime-main.js": "/stickerBook/static/js/runtime-main.5eceec62.js",
     "runtime-main.js.map": "/stickerBook/static/js/runtime-main.5eceec62.js.map",
-    "static/js/2.efbf500a.chunk.js": "/stickerBook/static/js/2.efbf500a.chunk.js",
-    "static/js/2.efbf500a.chunk.js.map": "/stickerBook/static/js/2.efbf500a.chunk.js.map",
+    "static/js/2.5acbd492.chunk.js": "/stickerBook/static/js/2.5acbd492.chunk.js",
+    "static/js/2.5acbd492.chunk.js.map": "/stickerBook/static/js/2.5acbd492.chunk.js.map",
     "index.html": "/stickerBook/index.html",
-    "precache-manifest.1761799a3b32b249c1f43744e7316e73.js": "/stickerBook/precache-manifest.1761799a3b32b249c1f43744e7316e73.js",
+    "precache-manifest.c76db040958e8fc4f5ba45befda39c41.js": "/stickerBook/precache-manifest.c76db040958e8fc4f5ba45befda39c41.js",
     "service-worker.js": "/stickerBook/service-worker.js",
-    "static/css/main.b1d66e51.chunk.css.map": "/stickerBook/static/css/main.b1d66e51.chunk.css.map",
-    "static/js/2.efbf500a.chunk.js.LICENSE.txt": "/stickerBook/static/js/2.efbf500a.chunk.js.LICENSE.txt"
+    "static/css/main.bb1cc2db.chunk.css.map": "/stickerBook/static/css/main.bb1cc2db.chunk.css.map",
+    "static/js/2.5acbd492.chunk.js.LICENSE.txt": "/stickerBook/static/js/2.5acbd492.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/stickerBook/static/media/rickAndMorty.65b25038.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.5eceec62.js",
-    "static/js/2.efbf500a.chunk.js",
-    "static/css/main.b1d66e51.chunk.css",
-    "static/js/main.da5a2907.chunk.js"
+    "static/js/2.5acbd492.chunk.js",
+    "static/css/main.bb1cc2db.chunk.css",
+    "static/js/main.db269cc4.chunk.js"
   ]
 }
