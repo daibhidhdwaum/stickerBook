@@ -1,13 +1,14 @@
 import React from "react";
 
 const Sticker = (props) => {
-    // console.log(props)
   return (
     <div className="flex stickerContainer" key={props.id}>
       <button
         className="imageContainer"
         onClick={props.handleClick}
-        id={props.id} stickernumber={props.stickerNumber}
+        id={props.id} 
+        stickernumber={props.stickerNumber} 
+        value="button"
       >{props.stickerNumber}
         <img
           className="sticker hidden"

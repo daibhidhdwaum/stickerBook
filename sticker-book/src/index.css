@@ -21,12 +21,12 @@ header {
 
 header div {
   width: 100%;
-  background-image: url(/rickAndMorty.jpg);
+  background-color: black;
+  background-image: url(./assets/rickAndMorty.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
   height: 90vh;
-  background-color: black;
 }
 
 h1 {
