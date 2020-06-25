@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import axios from "axios";
 import Header from "./Header";
+import Footer from "./Footer";
 import Sticker from "./Sticker";
 
 class App extends Component {
@@ -24,6 +25,8 @@ class App extends Component {
       this.setState({
         charactersInfo: response,
       });
+    }).catch((error) => {
+      console.log(error);
     });
   }
 
@@ -87,6 +90,7 @@ class App extends Component {
             </div>
           </div>
         </main>
+        <Footer />
       </>
     );
   }

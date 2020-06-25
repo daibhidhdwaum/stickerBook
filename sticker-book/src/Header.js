@@ -1,17 +1,23 @@
-import React from "react"
-
+import React from "react";
 
 const Header = () => {
-    return(
-<header>
-  <div></div>
-  {/* div stores background image */}
-  <h1>
-    <span className="visuallyHidden">Rick and Morty</span> Sticker Book
-  </h1>
-</header>
-    )
-}
+  return (
+    <header>
+      <div className="backgroundImage"></div>
+      {/* div stores background image */}
+      <div className="entryBar">
+        <div className="arrow">
+          <i class="fas fa-arrow-down"></i>
+        </div>
+        <h1>
+          <span className="visuallyHidden">Rick and Morty</span> Sticker Book
+        </h1>
+        <div className="arrow">
+          <i class="fas fa-arrow-down"></i>
+        </div>
+      </div>
+    </header>
+  );
+};
 
 export default Header;
-
