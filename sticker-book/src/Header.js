@@ -7,13 +7,13 @@ const Header = () => {
       {/* div stores background image */}
       <div className="entryBar">
         <div className="arrow">
-          <i class="fas fa-arrow-down"></i>
+          <i className="fas fa-arrow-down" ></i>
         </div>
         <h1>
           <span className="visuallyHidden">Rick and Morty</span> Sticker Book
         </h1>
         <div className="arrow">
-          <i class="fas fa-arrow-down"></i>
+          <i className="fas fa-arrow-down"></i>
         </div>
       </div>
     </header>
