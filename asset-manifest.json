@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/stickerBook/static/css/main.7091fddd.chunk.css",
-    "main.js": "/stickerBook/static/js/main.7c150b16.chunk.js",
-    "main.js.map": "/stickerBook/static/js/main.7c150b16.chunk.js.map",
+    "main.css": "/stickerBook/static/css/main.6cd52854.chunk.css",
+    "main.js": "/stickerBook/static/js/main.b79cf43d.chunk.js",
+    "main.js.map": "/stickerBook/static/js/main.b79cf43d.chunk.js.map",
     "runtime-main.js": "/stickerBook/static/js/runtime-main.5eceec62.js",
     "runtime-main.js.map": "/stickerBook/static/js/runtime-main.5eceec62.js.map",
     "static/js/2.5acbd492.chunk.js": "/stickerBook/static/js/2.5acbd492.chunk.js",
     "static/js/2.5acbd492.chunk.js.map": "/stickerBook/static/js/2.5acbd492.chunk.js.map",
     "index.html": "/stickerBook/index.html",
-    "precache-manifest.6d6a657fb18de1ed4068d3779fd2b24c.js": "/stickerBook/precache-manifest.6d6a657fb18de1ed4068d3779fd2b24c.js",
+    "precache-manifest.57254ef0f63eeaf1208f54579aa6f1d9.js": "/stickerBook/precache-manifest.57254ef0f63eeaf1208f54579aa6f1d9.js",
     "service-worker.js": "/stickerBook/service-worker.js",
-    "static/css/main.7091fddd.chunk.css.map": "/stickerBook/static/css/main.7091fddd.chunk.css.map",
+    "static/css/main.6cd52854.chunk.css.map": "/stickerBook/static/css/main.6cd52854.chunk.css.map",
     "static/js/2.5acbd492.chunk.js.LICENSE.txt": "/stickerBook/static/js/2.5acbd492.chunk.js.LICENSE.txt",
     "static/media/index.css": "/stickerBook/static/media/rickAndMorty.65b25038.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.5eceec62.js",
     "static/js/2.5acbd492.chunk.js",
-    "static/css/main.7091fddd.chunk.css",
-    "static/js/main.7c150b16.chunk.js"
+    "static/css/main.6cd52854.chunk.css",
+    "static/js/main.b79cf43d.chunk.js"
   ]
 }
