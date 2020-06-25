@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import axios from "axios";
+import Header from "./Header";
 import Sticker from "./Sticker";
 
 class App extends Component {
@@ -14,7 +15,7 @@ class App extends Component {
   componentDidMount() {
     axios({
       url:
-        "https://rickandmortyapi.com/api/character/[1,2,3,4,5,7,20,47,103,118,162,171,196,242,244,252,259,265,306,329,353,372]",
+        "https://rickandmortyapi.com/api/character/[1,2,3,4,5,7,20,47,103,118,162,171,192,196,242,244,252,259,265,306,329,353,372,382]",
       method: "GET",
       responseType: "JSON",
     }).then((response) => {
@@ -27,7 +28,6 @@ class App extends Component {
   }
 
   handleClick = (event) => {
-
     let targetID = event.target.id;
     const collected = this.state.stickerClicked;
 
@@ -38,12 +38,8 @@ class App extends Component {
       }
     }
 
-    // hide sticker number when clicked
-    const stickerNum = event.target.classList;
-    stickerNum.add("hideNumber");
-
     // display sticker when clicked
-    const sticker = event.target.childNodes[1].classList;
+    const sticker = event.target.childNodes[0].classList;
     const id = event.target.id;
 
     sticker.remove("hidden");
@@ -66,33 +62,30 @@ class App extends Component {
   render() {
     return (
       <>
-        <header>
-          <div></div>
-          {/* div stores background image */}
-          <h1>
-            <span className="visuallyHidden">Rick and Morty</span> Sticker Book
-          </h1>
-        </header>
+        <Header />
         <main>
-
-          <h2>Click a square to reveal the character!</h2>
-          {this.state.charactersInfo.map((character, index) => {
-            const key = character.id.toString();
-            return (
-              <Sticker
-                stickerNumber={index + 1}
-                key={key}
-                id={key}
-                name={character.name}
-                image={character.image}
-                species={character.species}
-                status={character.status}
-                planet={character.origin.name}
-                value={this.state.stickerClicked}
-                handleClick={(event) => this.handleClick(event)}
-              />
-            );
-          })}
+          <div className="wrapper">
+            <h2>Click a square to reveal the character!</h2>
+            <div className="pageContainer">
+              {this.state.charactersInfo.map((character, index) => {
+                const key = character.id.toString();
+                return (
+                  <Sticker
+                    stickerNumber={index + 1}
+                    key={key}
+                    id={key}
+                    name={character.name}
+                    image={character.image}
+                    species={character.species}
+                    status={character.status}
+                    planet={character.origin.name}
+                    value={this.state.stickerClicked}
+                    handleClick={(event) => this.handleClick(event)}
+                  />
+                );
+              })}
+            </div>
+          </div>
         </main>
       </>
     );

@@ -2,14 +2,15 @@ import React from "react";
 
 const Sticker = (props) => {
   return (
-    <div className="flex stickerContainer" key={props.id}>
+    <div className="stickerContainer" key={props.id}>
       <button
         className="imageContainer"
         onClick={props.handleClick}
-        id={props.id} 
-        stickernumber={props.stickerNumber} 
+        id={props.id}
+        stickernumber={props.stickerNumber}
         value="button"
-      >{props.stickerNumber}
+      >
+        {/* this is the sticker image */}
         <img
           className="sticker hidden"
           src={props.image}
@@ -18,17 +19,23 @@ const Sticker = (props) => {
           id={props.id}
         />
       </button>
-      <div>
-        <h2>name: {props.name}</h2>
-        <p>species: {props.species}</p>
-        <p>status: {props.status}</p>
-        <p>Planet: {props.planet}</p>
+      <div className="info">
+        {/* Character details */}
+        <h3 className="characterInfo">
+          Name: <span className="characterDetails">{props.name}</span>
+        </h3>
+        <p className="characterInfo">
+          Species: <span className="characterDetails">{props.species}</span>
+        </p>
+        <p className="characterInfo">
+          Status: <span className="characterDetails">{props.status}</span>
+        </p>
+        <p className="characterInfo">
+          Planet: <span className="characterDetails">{props.planet}</span>
+        </p>
       </div>
     </div>
   );
 };
-
-
-
 
 export default Sticker;
