@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/stickerBook/static/css/main.6cd52854.chunk.css",
-    "main.js": "/stickerBook/static/js/main.b79cf43d.chunk.js",
-    "main.js.map": "/stickerBook/static/js/main.b79cf43d.chunk.js.map",
+    "main.js": "/stickerBook/static/js/main.050fec99.chunk.js",
+    "main.js.map": "/stickerBook/static/js/main.050fec99.chunk.js.map",
     "runtime-main.js": "/stickerBook/static/js/runtime-main.5eceec62.js",
     "runtime-main.js.map": "/stickerBook/static/js/runtime-main.5eceec62.js.map",
     "static/js/2.5acbd492.chunk.js": "/stickerBook/static/js/2.5acbd492.chunk.js",
     "static/js/2.5acbd492.chunk.js.map": "/stickerBook/static/js/2.5acbd492.chunk.js.map",
     "index.html": "/stickerBook/index.html",
-    "precache-manifest.57254ef0f63eeaf1208f54579aa6f1d9.js": "/stickerBook/precache-manifest.57254ef0f63eeaf1208f54579aa6f1d9.js",
+    "precache-manifest.187c0d839a543576afcd0eec2f79c134.js": "/stickerBook/precache-manifest.187c0d839a543576afcd0eec2f79c134.js",
     "service-worker.js": "/stickerBook/service-worker.js",
     "static/css/main.6cd52854.chunk.css.map": "/stickerBook/static/css/main.6cd52854.chunk.css.map",
     "static/js/2.5acbd492.chunk.js.LICENSE.txt": "/stickerBook/static/js/2.5acbd492.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.5eceec62.js",
     "static/js/2.5acbd492.chunk.js",
     "static/css/main.6cd52854.chunk.css",
-    "static/js/main.b79cf43d.chunk.js"
+    "static/js/main.050fec99.chunk.js"
   ]
 }

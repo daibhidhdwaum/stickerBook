@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "48cfdc47e89da12714d16b0247fe9bfd",
+    "revision": "bed0041b99d8c6e6883c156aa4df3cf3",
     "url": "/stickerBook/index.html"
   },
   {
-    "revision": "937d74f70177f2c49ba0",
+    "revision": "c9bb4d83f1cbe4d5e1c1",
     "url": "/stickerBook/static/css/main.6cd52854.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stickerBook/static/js/2.5acbd492.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "937d74f70177f2c49ba0",
-    "url": "/stickerBook/static/js/main.b79cf43d.chunk.js"
+    "revision": "c9bb4d83f1cbe4d5e1c1",
+    "url": "/stickerBook/static/js/main.050fec99.chunk.js"
   },
   {
     "revision": "e77a4b9c52e98648f073",
